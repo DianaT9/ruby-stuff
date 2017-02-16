@@ -1,7 +1,7 @@
 require "rubygems"
 require "watir-webdriver" # -v 0.9.9
 require "selenium-webdriver" # -v 2.53.4
-# Recommended firefox-v  
+# Recommended firefox-v  34.0
 
 
 puts "Input login"
