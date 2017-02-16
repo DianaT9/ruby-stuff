@@ -16,9 +16,5 @@ password = gets.chomp
 @browser.text_field(id:'password').set(password)
 @browser.button(type:'submit').click
 
-
-# login = Vehkiya
-#password = invictusRex456456
-
 array = [[@browser.text_field(class:'value')] , [@browser.text_field(class:'amount')] , [@browser.text_field(class:'amount currency MDL')] ,  [@browser.text_field(class:'value')]]
 puts array
